@@ -228,9 +228,14 @@ oneway interface IStatusBar
      */
     void suppressAmbientDisplay(boolean suppress);
 
-
     /**
      * AOSiP
      */
     void toggleCameraFlash();
+
+    /**
+     *  Used to show or hide in display fingerprint view.
+     */
+    void showInDisplayFingerprintView();
+    void hideInDisplayFingerprintView();
 }
